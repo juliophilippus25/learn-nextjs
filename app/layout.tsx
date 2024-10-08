@@ -26,6 +26,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             {menuItem('/calculator', 'Calculator')}
             {menuItem('/users', 'Users')}
             {menuItem('/settings', 'Settings')}
+            {/* {menuItem('/signup', 'Register')}
+            {menuItem('/signin', 'Login')} */}
           </ul>
         </nav>
         {children}
